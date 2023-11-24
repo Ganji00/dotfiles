@@ -1,6 +1,6 @@
 <div align="center">
 <p>
-    <a href="/pulse">
+    <a href="/">
         <img alt="Last commit" src="https://img.shields.io/github/last-commit/Ganji00/dotfiles?color=C3E88D&style=for-the-badge"/>
     </a>
     <a href="/">
@@ -11,6 +11,9 @@
     </a>
 </p>
 </div>
+
+
 # dotfiles
 My dotfiles
+
 ##
