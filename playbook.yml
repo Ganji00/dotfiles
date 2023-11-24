@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  name: Setup Ubuntu
+  become: false
+  tasks:
+    - name: Install packages
+      become: true
+      ansible.builtin.apt:
+        name:
+          - eza
+        state: present
