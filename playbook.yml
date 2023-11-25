@@ -7,7 +7,7 @@
       become: true
       ansible.builtin.apt:
         name:
-          - eza
+          - exa
           - noefetch
           - sl
         state: present
