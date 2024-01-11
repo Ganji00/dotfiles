@@ -1,13 +1,16 @@
 ---
 - hosts: localhost
-  name: Setup Ubuntu
+  name: Setup Arch
   become: false
   tasks:
     - name: Install packages
       become: true
-      ansible.builtin.apt:
+      community.general.pacman:
         name:
-          - exa
-          - noefetch
+          - git
           - sl
+          - rofi
+          - zsh
+          - thunar
+          - xclip
         state: present
