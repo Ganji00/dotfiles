@@ -15,4 +15,22 @@
 # dotfiles
 My dotfiles
 
+# Configuration
+| Tool | Arch Linux |
+|:-----|:-----------|
+| Terminal | Alacritty |
+| Shell | zsh |
+| Window manager | i3 |
+| File manager | Thunar |
+| Bar | Polybar |
+| Launcher | Rofi |
+| Screenshots | Flameshot |
+# Deployment
+1. install ansible
+```bash
+pacman -Syu ansible
+```
+
+
+
 ##
