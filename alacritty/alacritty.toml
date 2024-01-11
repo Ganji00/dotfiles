@@ -1,3 +1,5 @@
 import = [
 	"~/.config/alacritty/themes/themes/palenight.toml"
 ]
+[window]
+  padding = { x = 5, y = 5 }
