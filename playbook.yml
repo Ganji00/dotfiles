@@ -13,4 +13,15 @@
           - zsh
           - thunar
           - xclip
+          - alacritty
+          - alsa-utils # provides alsamixer
+          - thefuck
+          - firefox
+          - neovim
         state: present
+
+    - name: Create the ~/CodeWork directory
+      become: false
+      ansible.builtin.file:
+        path: ~/CodeWork
+        state: directory
