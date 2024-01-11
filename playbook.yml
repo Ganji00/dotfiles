@@ -19,6 +19,7 @@
           - firefox
           - neovim
           - flameshot
+          - tldr
         state: present
 
     - name: Create the ~/CodeWork directory
