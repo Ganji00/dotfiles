@@ -20,6 +20,7 @@
           - neovim
           - flameshot
           - tldr
+          - arandr
         state: present
 
     - name: Create the ~/CodeWork directory
