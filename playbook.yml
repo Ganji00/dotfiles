@@ -21,6 +21,7 @@
           - flameshot
           - tldr
           - arandr
+          - eza
         state: present
 
     - name: Create the ~/CodeWork directory
