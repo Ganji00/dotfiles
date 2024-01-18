@@ -23,6 +23,8 @@
           - arandr
           - eza
           - dunst
+          - picom
+          - tree
         state: present
 
     - name: Create the ~/CodeWork directory

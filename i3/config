@@ -208,3 +208,6 @@ bindsym $mod+Shift+s exec flameshot gui
 
 # notifications
 exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc 
+
+# picom
+# exec_always --no-startup-id picom -b
