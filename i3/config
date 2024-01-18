@@ -48,7 +48,7 @@ floating_modifier $mod
 
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
-tiling_drag modifier titlebar
+#tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
@@ -192,7 +192,7 @@ bar {
 }
 
 # padding
-gaps inner 10
+gaps inner 8
 
 # Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -205,3 +205,6 @@ exec_always --no-startup-id setxkbmap pl
 
 # screen shots
 bindsym $mod+Shift+s exec flameshot gui
+
+# notifications
+exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc 
