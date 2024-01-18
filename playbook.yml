@@ -22,6 +22,7 @@
           - tldr
           - arandr
           - eza
+          - dunst
         state: present
 
     - name: Create the ~/CodeWork directory
