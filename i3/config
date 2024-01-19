@@ -196,7 +196,9 @@ gaps inner 8
 
 # Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id feh --bg-scale $HOME/.config/4k.jpg
+
+# wallpaper
+exec_always --no-startup-id feh --bg-scale $HOME/.config/Vaporwave.jpeg
 
 default_border pixel 0
 default_floating_border pixel 0 
@@ -208,6 +210,10 @@ bindsym $mod+Shift+s exec flameshot gui
 
 # notifications
 exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc 
+
+# lock screen
+exec --no-startup-id betterlockscreen -u ~/.config/Vaporwave.jpeg
+bindsym $mod+Escape exec "betterlockscreen --lock --display 1"
 
 # picom
 # exec_always --no-startup-id picom -b
