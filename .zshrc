@@ -19,6 +19,12 @@ export PATH=/usr/bin/latex:$PATH
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
+# run ssh agent
+if [ -z "$SSH_AUTH_SOCK" ] ; then
+  eval "$(ssh-agent -s)" > /dev/null
+fi
+ssh-add ~/.ssh/main-key > /dev/null 2>&1
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
