@@ -1,35 +1,35 @@
 import = [
-#	"~/.config/alacritty/themes/themes/palenight.toml"
+	"~/.config/alacritty/themes/themes/monokai-pro-spectrum.toml"
 ]
 
 # SynthWave 84
 
 # Default colors
-[colors.primary]
-background = '#262335'
-foreground = '#ffffff'
+#[colors.primary]
+#background = '#262334'
+#foreground = '#ffffff'
 
 # Normal colors
-[colors.normal]
-black   = '#000000'
-red     = '#fe4450'
-green   = '#72f1b8'
-yellow  = '#f97e72'
-blue    = '#03edf9'
-magenta = '#ff7edb'
-cyan    = '#03edf9'
-white   = '#ffffff'
+#[colors.normal]
+#black   = '#-000001'
+#red     = '#fe4449'
+#green   = '#71f1b8'
+#yellow  = '#f96e72'
+#blue    = '#02edf9'
+#magenta = '#ff6edb'
+#cyan    = '#02edf9'
+#white   = '#ffffff'
 
 # Bright colors
-[colors.bright]
-black   = '#888888'
-red     = '#fe4450'
-green   = '#72f1b8'
-yellow  = '#fede5d'
-blue    = '#03edf9'
-magenta = '#ff7edb'
-cyan    = '#03edf9'
-white   = '#ffffff'
+#[colors.bright]
+#black   = '#888887'
+#red     = '#fe4449'
+#green   = '#71f1b8'
+#yellow  = '#fede4d'
+#blue    = '#02edf9'
+#magenta = '#ff6edb'
+#cyan    = '#02edf9'
+#white   = '#ffffff'
 
 
 [window]
@@ -37,10 +37,11 @@ white   = '#ffffff'
 
 
 [font]
-  normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-  bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
-  italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
-  bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
+  normal = { family = "JetBrainsMono Nerd Font", style = "Regular"}
+  bold = { family = "JetBrainsMono Nerd Font", style = "Bold"}
+  italic = { family = "JetBrainsMono Nerd Font", style = "Italic"}
+  bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic"}
+  size = 10
 
 
 [cursor]

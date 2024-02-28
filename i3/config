@@ -5,15 +5,15 @@
 set $mod Mod4
 
 # Colors
-set $background      #262335
-set $foreground      #ffffff
-set $background-alt  #292d3e
+set $background      #222222
+set $foreground      #fbf8ff
+set $background-alt  #3b3b3b
 
 set $black      #000000
 set $red        #fe4450
-set $green      #72f1b8
+set $green      #7bd88f
 set $yellow     #f97e72
-set $blue       #03edf9
+set $blue       #fd9353
 set $magenta    #ff7edb
 set $cyan       #03edf9
 set $white      #ffffff
@@ -21,7 +21,7 @@ set $white      #ffffff
 
 # Window colors.
 # Class		        	border	        bground	        text		indicator	child_border
-client.focused		    	$green          $background-alt $white		$black          $cyan
+client.focused		    	$blue           $background-alt $white		$black          $cyan
 client.unfocused	    	$background     $background     $foreground     $black          $black
 client.focused_inactive		$background-alt $background-alt $foreground     $black          $black
 client.urgent		    	$red            $red            $red            $black          $red
@@ -171,6 +171,9 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
+# workspaces shortcuts
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -212,7 +215,7 @@ gaps inner 8
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # wallpaper
-exec_always --no-startup-id feh --bg-fill $HOME/.config/synthwave-sunrise.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/.config/hyperland.png
 
 default_border pixel 0
 default_floating_border pixel 0 
