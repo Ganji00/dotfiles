@@ -25,6 +25,7 @@ My dotfiles
 | Bar | Polybar |
 | Launcher | Rofi |
 | Screenshots | Flameshot |
+
 # Deployment
 1. install ansible
 ```bash
