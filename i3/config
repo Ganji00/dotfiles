@@ -84,6 +84,9 @@ bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-6/launcher.sh
 # start powermenu
 bindsym $mod+p exec ~/.config/rofi/powermenu/type-6/powermenu.sh
 
+# start rofi window selecter
+bindsym $mod+o exec ~/.config/rofi/launchers/type-6/launcher-window.sh
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
