@@ -1,7 +1,7 @@
 # See dunst(5) for all configuration options
 [colors]
-	background = "#262335"
-	foreground = "#ffffff"
+	background = "#222222"
+	foreground = "#fbf8ff"
 
 [global]
     ### Display ###
@@ -33,7 +33,7 @@
     height = 100
 
     # Position the notification in the top right corner
-    origin = bottom-left
+    origin = bottom-right
 
     # Offset from the origin
     offset = 10x10
@@ -98,7 +98,7 @@
     frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#262335"
+    frame_color = "#fd9353"
 
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -217,7 +217,7 @@
     min_icon_size = 32
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 128
+    max_icon_size = 96
 
     # Paths to default icons (only neccesary when not using recursive icon lookup)
     icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
@@ -314,21 +314,21 @@
 
 
 [urgency_low]
-    background = "#262335"
-    foreground = "#ffffff"
-    frame_color = "#03edf9"
+    background = "#222222"
+    foreground = "#fbf8ff"
+    frame_color = "#fd9353" # orange/blue
     timeout = 3
 
 [urgency_normal]
-    background = "#262335"
-    foreground = "#ffffff"
-    frame_color = "#ff7edb"
+    background = "#222222"
+    foreground = "#fbf8ff"
+    frame_color = "#7bd88f" # green
     timeout = 15
 
 [urgency_critical]
-    background = "#262335"
-    foreground = "#ffffff"
-    frame_color = "#fe4450"
+    background = "#222222"
+    foreground = "#fbf8ff"
+    frame_color = "#fc618d" # red
     timeout = 60
 
 [play_sound]

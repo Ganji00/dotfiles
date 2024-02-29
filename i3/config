@@ -79,10 +79,10 @@ bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # start drun (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -i -show drun -modi drun -show-icons
+bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-6/launcher.sh
 
 # start powermenu
-bindsym $mod+p exec ~/.config/rofi/powermenu/run.sh
+bindsym $mod+p exec ~/.config/rofi/powermenu/type-6/powermenu.sh
 
 # change focus
 bindsym $mod+j focus left
@@ -237,7 +237,7 @@ exec --no-startup-id betterlockscreen -u $HOME/.config/synthwave-sunrise.jpg
 bindsym $mod+Escape exec "betterlockscreen --lock --display 1"
 
 # picom
-# o exec_always --no-startup-id picom -b
+exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
 
 ##################
 # floating rules #
