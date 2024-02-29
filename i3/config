@@ -228,6 +228,7 @@ exec_always --no-startup-id setxkbmap pl
 
 # screen shots
 bindsym $mod+Shift+s exec flameshot gui
+bindsym Print exec flameshot full -c
 
 # notifications
 exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc 
